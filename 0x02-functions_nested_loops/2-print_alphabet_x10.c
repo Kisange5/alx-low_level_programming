@@ -9,20 +9,16 @@ void print_alphabet_x10(void)
 	int k;
 
 	k = 0;
-	letter2;
-
-		while (k < 10)
+	while (k < 10)
 		{
 			letter = 'a';
 
-		while (letter2 <= 'z')
+		while (letter <= 'z')
 		{
-			_putchar{letter2);
-
-			letter2++
+			letter++;
 			}
 			_putchar('\n');
-			k++
+			k++;
 		}
 }
 
