@@ -1,19 +1,14 @@
-#include <stdio.h>
 #include "main.h"
-#include <ctype.h>
 /**
- * mul - a function that multiplies two integers.
- * @a: is tye character to check
- * @b: is  the character to check
- * return: 0 (success)
+ * mul - checks for checks for a digit (0 through 9).
+ * @a: a - Variable
+ * @b: b - variable
+ * Return: Always 0.
  */
-int mul(int a, int b)(void)
+int mul(int a, int b)
 {
-	int a;
+	int mul;
 
-	int b;
-
-	mul = (int 'a' * int 'b')
-		_putchar((% d * % d) = % d, int 'a', int 'b', mul);
-	return (0);
+	mul = a * b;
+	return (mul);
 }
