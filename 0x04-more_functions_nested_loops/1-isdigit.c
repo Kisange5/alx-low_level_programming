@@ -1,13 +1,10 @@
-#inlcude "main.h"
-#include <stdio.h>
-#include <ctype.h>
+#include "main.h"
 /**
- * _isdigit - a function that checks for a digit (0 through 9
- * @c: is the character to look
- * Returns 1 if c is a digit
- * Returns 0 otherwise
+ * _isdigit - checks for a digit (0 through 9)
+ * @c: int to be checked
+ * Return: 1 if c is a digit, 0 otherwise
  */
 int _isdigit(int c)
 {
-	char c;
-}	
+	return (c >= '0' && c <= '9');
+}
