@@ -20,9 +20,9 @@ int main(void)
 					putchar(i + '0');
 					putchar(j + '0');
 					putchar(k + '0');
-					if (i + j + k != 24)
-						putchar(',');
-					putchar(' ');
+				if (i + j + k != 24)
+					putchar(',');
+				putchar(' ');
 				}
 			}
 		}
