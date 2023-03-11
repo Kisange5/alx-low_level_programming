@@ -1,11 +1,23 @@
 #include "main.h"
-void _put(char *s)
-{
-	int i;
-	for (i = 0; s[i] != '\0'; i++)
-	{
-		_putchar(s[i]);
-	}
-	_putchar('\n');
-}
 
+/**
+* _puts - a func to print a string followed by a newline
+*
+* @str: string to be printed to stdout
+*
+* Return: void
+*/
+
+void _puts(char *str)
+{
+int i = 0;
+
+while (str[i] != '\0')
+{
+_putchar(str[i]);
+i++;
+
+}
+_putchar('\n');
+
+}
