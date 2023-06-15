@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * print_dlistint - A  function that prints all the elements of a dlistint_t list.
+ * print_dlistint - prints all the elements of a dlistint_t list.
  * @h: the head of the linked lists
  * Return: the number of node
  */
@@ -17,5 +17,5 @@ size_t print_dlistint(const dlistint_t *h)
 		h = h->next;
 		count++;
 	}
-	return(count);
+	return (count);
 }
